@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['bicycle', 'bird', 'bus', 'car', 'cat', 'dog', 'fox', 'package', 'person', 'truck']
+
+roboflow:
+  workspace: cctv-bqm7y
+  project: cctv-rczal
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cctv-bqm7y/cctv-rczal/dataset/14
