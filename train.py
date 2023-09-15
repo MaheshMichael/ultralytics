@@ -16,4 +16,4 @@ model = YOLO("yolov8n.pt")
 
 
 
-model.train(data=r"E:\API\Yolov8\ultralytics\data\data.yaml", epochs=10,imgsz=832, de
+model.train(data=r"E:\API\Yolov8\ultralytics\data\data.yaml", epochs=10,imgsz=832, device=0)
